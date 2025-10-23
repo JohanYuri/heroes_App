@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-error-page',
-  template: `
-    <p>
-      error-page works!
-    </p>
-  `,
+  templateUrl: './error-page.component.html',
   styles: [
   ]
 })
